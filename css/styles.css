@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-color: azure;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 1%;
+    background-color:azure;
+
+}
+
+header img{
+    height: 8vh;
+    border-radius: 50%;
+}
+
+/* CARROUSEL */
+
+img {
+    height: 88vh;
+}
+
+/* SECCIONES */
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    margin: 10px;
+}
+
+.secIzq {
+    display: flex;
+    flex-direction: row;
+}
+
+.secIzq h2{
+    padding:10px;
+}
+
+.secIzq p{
+    padding:10px;
+}
+
+.secDer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.secDer h2{
+    padding:10px;
+}
+
+.secDer p{
+    padding:10px;
+}
+
+/* UBICACION */
+
+.mapa {
+    display: flex;
+    width:50vw;
+    height:70vh;
+    align-items: center;
+}
+
+/* CONTACTO */
+
+.iconos {
+    width:8vw;
+    height:17vh;
+}
+
+/*  CERVEZA */
+
+.logoBordona{
+    width: 10vw;
+    height: 100vh;
+}
+
+.logoGambrinus {
+    width: 15vw;
+    height:17vh;
+}
+
+/* FOOTER */
+
+.iconosFooter {
+    width: 1.5vw;
+    height: 2.5vh;
+}
+
+/*EXTRAS*/
+
+.hipervinculos {
+    text-decoration: none;
+}
