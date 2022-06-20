@@ -1,0 +1,30 @@
+/* SECCIONES */
+
+.secciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+    margin: 10px;
+}
+
+.secIzq {
+    display: flex;
+    flex-direction: row;
+    h2{
+    padding:10px;
+    }
+    p{padding: 10px;
+    }
+}
+
+.secDer {
+    display: flex;
+    flex-direction: row-reverse;
+    h2{
+        padding:10px;
+    }
+    p{
+        padding: 10px;
+    }
+}
