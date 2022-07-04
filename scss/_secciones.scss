@@ -6,6 +6,14 @@
     justify-content: center;
     padding: 1%;
     margin: 10px;
+    text-align: justify;
+    h1{
+        text-align: center;
+        
+    }
+    img{
+        border-radius: 7%;
+    }
 }
 
 .secIzq {
@@ -14,7 +22,9 @@
     h2{
     padding:10px;
     }
-    p{padding: 10px;
+    p{
+        padding: 10px;
+        text-align: justify;
     }
 }
 
@@ -23,8 +33,10 @@
     flex-direction: row-reverse;
     h2{
         padding:10px;
+        text-align: right;
     }
     p{
         padding: 10px;
+        text-align: justify;
     }
 }

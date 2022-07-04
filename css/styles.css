@@ -7,7 +7,8 @@
 
 body, html {
   height: 100%;
-  background-color: azure;
+  background-image: url(/multimedia/fondo.jpg);
+  background-repeat: repeat;
 }
 
 /* HEADER */
@@ -16,7 +17,7 @@ header {
   justify-content: space-between;
   font-size: 18px;
   padding: 1%;
-  background-color: azure;
+  background-color: whitesmoke;
 }
 header img {
   height: 8vh;
@@ -35,6 +36,13 @@ img {
   justify-content: center;
   padding: 1%;
   margin: 10px;
+  text-align: justify;
+}
+.secciones h1 {
+  text-align: center;
+}
+.secciones img {
+  border-radius: 7%;
 }
 
 .secIzq {
@@ -46,6 +54,7 @@ img {
 }
 .secIzq p {
   padding: 10px;
+  text-align: justify;
 }
 
 .secDer {
@@ -54,9 +63,11 @@ img {
 }
 .secDer h2 {
   padding: 10px;
+  text-align: right;
 }
 .secDer p {
   padding: 10px;
+  text-align: justify;
 }
 
 /*  CERVEZA */
@@ -64,12 +75,45 @@ img {
   width: 10vw;
   height: 20vh;
   margin: 5px;
+  margin-right: 50px;
 }
 
 .logoGambrinus {
   width: 15vw;
   height: 17vh;
   margin: 5px;
+  margin-right: 50px;
+}
+
+/* SECCIONES */
+.seccionesCerv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1%;
+  margin: 10px;
+  text-align: justify;
+}
+.seccionesCerv article {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.seccionesCerv h1 {
+  text-align: center;
+}
+.seccionesCerv h2 {
+  text-align: center;
+}
+
+.secIzqCerv {
+  display: flex;
+  flex-direction: row;
+}
+.secIzqCerv h2 {
+  padding: 10px;
+}
+.secIzqCerv p {
+  padding: 10px;
 }
 
 /* UBICACION */
