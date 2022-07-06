@@ -17,11 +17,15 @@ header {
   justify-content: space-between;
   font-size: 18px;
   padding: 1%;
-  background-color: whitesmoke;
+  background-color: white;
 }
 header img {
   height: 8vh;
   border-radius: 50%;
+}
+
+.letras a {
+  color: rgb(135, 214, 133) !important;
 }
 
 /* CARROUSEL */
@@ -42,7 +46,7 @@ img {
   text-align: center;
 }
 .secciones img {
-  border-radius: 7%;
+  border-radius: 2%;
 }
 
 .secIzq {
@@ -57,23 +61,78 @@ img {
   text-align: justify;
 }
 
+@media (max-width: 700px) {
+  .secIzq {
+    display: flex;
+    flex-direction: column;
+  }
+  .secIzq h2 {
+    padding: 10px;
+  }
+  .secIzq p {
+    padding: 10px;
+    text-align: justify;
+  }
+  .secFotos {
+    width: 96%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .secFotos img {
+    width: 100%;
+    height: auto;
+  }
+}
 .secDer {
   display: flex;
   flex-direction: row-reverse;
 }
 .secDer h2 {
   padding: 10px;
-  text-align: right;
+  text-align: left;
 }
 .secDer p {
   padding: 10px;
   text-align: justify;
 }
 
+@media (max-width: 700px) {
+  .secDer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .secDer h2 {
+    padding: 10px;
+    text-align: left;
+  }
+  .secDer p {
+    padding: 10px;
+    text-align: justify;
+  }
+  .secFotos {
+    width: 96%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .secFotos img {
+    width: 100%;
+    height: auto;
+  }
+}
+.secFotos {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.secFotos img {
+  width: 100%;
+  height: auto;
+}
+
 /*  CERVEZA */
 .logoBordona {
-  width: 10vw;
-  height: 20vh;
+  width: 15vw;
+  height: 25vh;
   margin: 5px;
   margin-right: 50px;
 }
@@ -116,6 +175,30 @@ img {
   padding: 10px;
 }
 
+@media (max-width: 576px) {
+  .secIzqCerv {
+    display: flex;
+    flex-direction: column;
+  }
+  .secIzqCerv h2 {
+    padding: 10px;
+  }
+  .secIzqCerv p {
+    padding: 10px;
+  }
+  .logoBordona {
+    width: 45vw;
+    height: 20vh;
+    margin: 5px;
+    margin-right: 50px;
+  }
+  .logoGambrinus {
+    width: 45vw;
+    height: 15vh;
+    margin: 5px;
+    margin-right: 50px;
+  }
+}
 /* UBICACION */
 .mapa {
   display: flex;
@@ -124,18 +207,38 @@ img {
   align-items: center;
 }
 
+@media (max-width: 576px) {
+  .mapa {
+    display: flex;
+    width: 100%;
+    height: 30vh;
+    align-items: center;
+  }
+}
 /* CONTACTO */
 .iconos {
-  width: 8vw;
+  width: 7vw;
   height: 17vh;
 }
 
+@media (max-width: 576px) {
+  .iconos {
+    width: 27vw;
+    height: 17vh;
+  }
+}
 /* FOOTER */
 .iconosFooter {
   width: 1.5vw;
   height: 2.5vh;
 }
 
+@media (max-width: 576px) {
+  .iconosFooter {
+    width: 3vw;
+    height: 2vh;
+  }
+}
 /* EXTRAS */
 .hipervinculos {
   text-decoration: none;

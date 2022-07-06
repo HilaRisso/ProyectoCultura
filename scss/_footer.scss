@@ -4,3 +4,11 @@
     width: 1.5vw;
     height: 2.5vh;
 }
+
+
+@media (max-width: 576px) {
+    .iconosFooter {
+        width: 3vw;
+        height: 2vh;
+    }
+}

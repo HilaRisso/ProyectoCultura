@@ -1,6 +1,13 @@
 /* CONTACTO */
 
 .iconos {
-    width:8vw;
+    width:7vw;
     height:17vh;
+}
+
+@media (max-width: 576px) {
+    .iconos {
+        width: 27vw;
+        height: 17vh;
+    }
 }
